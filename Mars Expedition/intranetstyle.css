@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(73, 146, 210);
+}
+
+#mainform {
+    position: fixed;
+    width: 80%;
+    height: 80%;
+    left:40%;
+    right:40%;
+    top:10%;
+    margin-top: 15px;
+}
+.forminput {
+    background-color: rgb(254, 240, 222);
+    width: 300px;
+    height: 45px;
+}
+.forminput2 {
+    background-color: rgb(253, 171, 130);
+    width: 300px;
+    height: 45px;
+}
