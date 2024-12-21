@@ -1,0 +1,97 @@
+#backgrounddiv {
+    color: rgb(0, 0, 0);
+    --s: 150px; /* control the size*/
+    --c1: rgb(221, 153, 110); /*forground*/
+    --c2: rgb(252, 235, 182); /*background*/
+    
+    background:
+        linear-gradient(135deg,#0000 18.75%,var(--c1) 0 31.25%,#0000 0),
+        repeating-linear-gradient(45deg,var(--c1) -6.25% 6.25%,var(--c2) 0 18.75%);
+    background-size: var(--s) var(--s); 
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    
+
+}
+#backgrounddiv2 {
+    --s: 50px; /* control the size*/
+    --c1: rgb(206, 164, 138); /*forground*/
+    --c2: rgb(252, 235, 182); /*background*/
+
+    --g:conic-gradient(at 90% 40%,#0000 75%,var(--c1) 0);
+    background: var(--g),var(--g) var(--s) var(--s) var(--c2);
+    background-size: calc(2*var(--s)) calc(2*var(--s));
+    
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(221, 153, 110);
+    width: 35%;
+    height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centerstuff {
+    text-align: center;
+    background-color: rgb(252, 235, 182);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 60%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid rgb(221, 153, 110);
+}
+#rawr {
+    border: 10px solid rgb(206, 164, 138);
+}
+#ehehhaw {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    left:7%;
+}
+#ehehhaw2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    left:30%;
+}
+input[type=submit] {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input[type=submit]:hover {
+    background-color: rgb(206, 164, 138);
+}
+a {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: rgb(131, 86, 145);
+}
+a:active {
+    color: rgb(221, 153, 110);
+}
